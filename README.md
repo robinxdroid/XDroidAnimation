@@ -21,6 +21,6 @@
 # Usage
 见Demo
 #Thanks
-EasyAndroidAnimations
+EasyAndroidAnimations,
 EaseInterpolator
 
