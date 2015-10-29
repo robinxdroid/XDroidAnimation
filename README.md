@@ -18,6 +18,10 @@
 	 15.路径动画（PathAnimation）
 	 16.多种自定义的Interpolate插值器
 	 17.SVG动画（SVGAnimationView）
+#screenshot
+![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation.gif) 
+![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation2.gif) 
+
 # Usage
 见Demo
 #Thanks
