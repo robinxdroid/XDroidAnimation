@@ -1,0 +1,12 @@
+/XDroidAnimation/bin/*
+/XDroidAnimation/gen/*
+/XDroidAnimation/.classpath
+/XDroidAnimation/.project
+/XDroidAnimation/project.properties
+/XDroidAnimation/.settings/
+/XDroidAnimationExample/bin/*
+/XDroidAnimationExample/gen/*
+/XDroidAnimationExample/.classpath
+/XDroidAnimationExample/.project
+/XDroidAnimationExample/project.properties
+/XDroidAnimationExample/.settings/

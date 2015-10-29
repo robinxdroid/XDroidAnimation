@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:background="@android:color/darker_gray"
+                android:layout_width="150dp"
+                android:layout_height="150dp" >
+
+                <com.xdroid.animation.anim.SvgAnimationView
+                    android:id="@+id/svg_view"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_interpolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interpolate" />
+
+            <Button
+                android:id="@+id/btn_slide_underneath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SlideUnderneathAnimation" />
+
+            <Button
+                android:id="@+id/btn_slide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SlideAnimation" />
+
+            <Button
+                android:id="@+id/btn_rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RotateAnimation" />
+
+            <Button
+                android:id="@+id/btn_flip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FlipAnimation" />
+
+            <Button
+                android:id="@+id/btn_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScaleAnimation" />
+
+            <Button
+                android:id="@+id/btn_alpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AlphaAnimation" />
+
+            <Button
+                android:id="@+id/btn_shake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ShakeAnimationHorizontal" />
+
+            <Button
+                android:id="@+id/btn_shake_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ShakeAnimationVertical" />
+
+            <Button
+                android:id="@+id/btn_blind"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="BlindAnimation" />
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp" >
+
+                <Button
+                    android:id="@+id/btn_flip_to_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_red_light"
+                    android:text="FlipToAnimation" />
+
+                <Button
+                    android:id="@+id/btn_flip_to_original"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="FlipToAnimation" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_puff"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="PuffAnimation" />
+
+            <Button
+                android:id="@+id/btn_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="ColorAnimation" />
+
+            <Button
+                android:id="@+id/btn_telescopic"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="TelescopicButton" />
+
+            <Button
+                android:id="@+id/btn_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PathButton" />
+
+            <Button
+                android:id="@+id/btn_combination"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="CombinationAnimation" />
+
+            <RelativeLayout
+                android:id="@+id/rl_transfer_original"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="200dp"
+                android:background="@drawable/shape_transfer_image_view_bg" >
+
+                <Button
+                    android:id="@+id/btn_transfer"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="TransferAnimation"
+                    android:textSize="7sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_transfer_destination"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_transfer_image_view_bg" />
+    </RelativeLayout>
+
+</ScrollView>
