@@ -21,8 +21,8 @@
 # Usage
 见Demo
 #Thanks
-[EasyAndroidAnimations]{https://github.com/2359media/EasyAndroidAnimations}<br>
-[EaseInterpolator]{https://github.com/cimi-chen/EaseInterpolator}
+[EasyAndroidAnimations](https://github.com/2359media/EasyAndroidAnimations)<br>
+[EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
 #About me
 735506404@robinx.net
 
