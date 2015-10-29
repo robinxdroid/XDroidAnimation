@@ -17,6 +17,7 @@
 	 14.伸缩动画（TelescopicAnimation），支持 进入与移出、高度与宽度伸缩
 	 15.路径动画（PathAnimation）
 	 16.多种自定义的Interpolate插值器
+	 17.SVG动画（SVGAnimationView）
 # Usage
 见Demo
 
