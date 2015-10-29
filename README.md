@@ -23,7 +23,11 @@
 ![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation2.gif) 
 
 # Usage
-见Demo
+AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
+            .setInterpolator(new DecelerateInterpolator())
+            .setDirection(Direction.DIRECTION_RIGHT)
+	    .setSlideMode(SlideMode.OUT)
+	    .animate();
 #Thanks
 [EasyAndroidAnimations](https://github.com/2359media/EasyAndroidAnimations)<br>
 [EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
