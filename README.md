@@ -20,4 +20,7 @@
 	 17.SVG动画（SVGAnimationView）
 # Usage
 见Demo
+#Thanks
+EasyAndroidAnimations
+EaseInterpolator
 
