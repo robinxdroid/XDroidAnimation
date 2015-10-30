@@ -18,8 +18,20 @@
 	 15.路径动画（PathAnimation）
 	 16.多种自定义的Interpolate插值器
 	 17.SVG动画（SVGAnimationView）
+#Screenshot
+![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation.gif) 
+![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation2.gif) 
+
 # Usage
-见Demo
+以下为一个片段
+```java
+AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
+            .setInterpolator(new DecelerateInterpolator())
+            .setDirection(Direction.DIRECTION_RIGHT)
+	    .setSlideMode(SlideMode.OUT)
+	    .animate();
+```
+具体请见Demo中MainActivity.java
 #Thanks
 [EasyAndroidAnimations](https://github.com/2359media/EasyAndroidAnimations)<br>
 [EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
