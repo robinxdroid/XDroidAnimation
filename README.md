@@ -19,7 +19,7 @@
 	 16.多种自定义的Interpolate插值器
 	 17.SVG动画（SVGAnimationView）
 #Here is the sample
-[Download demo](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimationExample.apk?raw=true)
+[Download demo.apk](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimationExample.apk?raw=true)
 #Screenshot
 ![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation.gif) 
 ![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation2.gif) 
