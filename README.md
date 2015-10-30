@@ -23,11 +23,15 @@
 ![](https://github.com/robinxdroid/XDroidAnimation/blob/master/XDroidAnimation2.gif) 
 
 # Usage
-AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
+以下为一个片段
+```java
+	AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
             .setInterpolator(new DecelerateInterpolator())
-            .setDirection(Direction.DIRECTION_RIGHT)
-	    .setSlideMode(SlideMode.OUT)
+            .setDirection(Direction.DIRECTION_RIGHT)<br>
+	    .setSlideMode(SlideMode.OUT)<br>
 	    .animate();
+```
+具体请见Demo中MainActivity.java
 #Thanks
 [EasyAndroidAnimations](https://github.com/2359media/EasyAndroidAnimations)<br>
 [EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
