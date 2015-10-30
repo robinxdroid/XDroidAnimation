@@ -25,10 +25,10 @@
 # Usage
 以下为一个片段
 ```java
-	AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
+AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
             .setInterpolator(new DecelerateInterpolator())
-            .setDirection(Direction.DIRECTION_RIGHT)<br>
-	    .setSlideMode(SlideMode.OUT)<br>
+            .setDirection(Direction.DIRECTION_RIGHT)
+	    .setSlideMode(SlideMode.OUT)
 	    .animate();
 ```
 具体请见Demo中MainActivity.java
