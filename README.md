@@ -38,5 +38,6 @@ AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
 [EasyAndroidAnimations](https://github.com/2359media/EasyAndroidAnimations)<br>
 [EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
 #About me
-735506404@robinx.net
+Email:735506404@robinx.net
+Blog:[www.robinx.net](www.robinx.net)
 
