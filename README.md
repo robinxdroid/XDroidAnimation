@@ -39,5 +39,5 @@ AnimationKit.createSlideUnderneathAnimation(button).setDuration(1000)
 [EaseInterpolator](https://github.com/cimi-chen/EaseInterpolator)
 #About me
 Email:735506404@robinx.net<br>
-Blog:[www.robinx.net](www.robinx.net)
+Blog:[www.robinx.net](http://www.robinx.net)
 
